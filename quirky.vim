@@ -36,6 +36,7 @@ hi Special      guifg=#FF66D6                   gui=bold
 hi Statement    guifg=#D02503                   gui=bold
 hi String       guifg=#574296                   gui=italic
 hi Type         guifg=#227716
+hi Keyword      guifg=black
 
 " Interface Elements
 hi CursorLine                   guibg=#D6D6FF
@@ -51,3 +52,14 @@ hi VertSplit    guifg=black
 " Specials
 hi Todo         guifg=black
 hi Title        guifg=black
+
+" Lisp/Clojure Colors
+"hi link LispList Function
+"hi link LispSymbol Function
+
+" Vimwiki
+hi link VimwikiHeaderChar   Statement
+hi link VimwikiHeader1      Statement
+hi link VimwikiHeader2      Statement
+hi link VimwikiHeader3      Statement
+hi link VimwikiHeader4      Statement
